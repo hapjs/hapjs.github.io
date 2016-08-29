@@ -19,11 +19,11 @@
                 mobile: mobile
             };
         }(navigator.platform));
-        
+
         // 以下代码不言而喻
         if(os.mobile){
             location.href = 'm/index.html';
-        }else if(os.mobile){
+        }else{
             location.href = 'p/index.html';
         }
     </script>
